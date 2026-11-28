@@ -38,7 +38,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "evokai-client", specifier = "==0.2.2" },
+    { name = "evokai-client", specifier = "==0.4.0" },
     { name = "fastapi", specifier = "==0.115.0" },
     { name = "httpx", specifier = "==0.27.2" },
     { name = "python-dotenv", specifier = "==1.0.1" },
@@ -65,16 +65,16 @@ wheels = [
 
 [[package]]
 name = "evokai-client"
-version = "0.2.2"
+version = "0.4.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
     { name = "pydantic" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/7f/14/d850d6df165da90d2f591376b6441eda284a23e731bbe2fad53eb4748cca/evokai_client-0.2.2.tar.gz", hash = "sha256:c23ab6722e360d9e65fff1f41340eac50174d884b39250670a5145ff5298022e", size = 59544, upload-time = "2026-11-24T17:38:53.729Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/56/4f/5d181c8212ed653a5cfbe6211776701c7cf21f0e905a5a513cf8da20fead/evokai_client-0.4.0.tar.gz", hash = "sha256:ef308ec9a6a047b74e17ad1ef8f966ed318b3e32ed0cbc0c5810f805eabf9cb7", size = 60810, upload-time = "2026-11-28T12:39:59.315Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/54/c3/e2469db64c7daa2e0afc068660d271ecbc4fb44c7a4a08d86ff284fbdf91/evokai_client-0.2.2-py3-none-any.whl", hash = "sha256:4d7dd71292faa9260ea23d55c3beb4e09315f3cf277d5a54e1284d5b49631299", size = 58371, upload-time = "2026-11-24T17:38:52.022Z" },
+    { url = "https://files.pythonhosted.org/packages/85/84/9959f20c21ce98e330df4b08bcb6999c8b6be8199687cb1b70aa3f53759e/evokai_client-0.4.0-py3-none-any.whl", hash = "sha256:5d63c18a1dc8ba4552749421142467f1b22712cdcb5875771e7408b5a95d025f", size = 59734, upload-time = "2026-11-28T12:39:57.94Z" },
 ]
 
 [[package]]

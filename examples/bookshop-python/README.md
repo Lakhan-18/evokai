@@ -82,9 +82,10 @@ rm .env && EVOKAI_APP_SLUG=bookshop-local EVOKAI_MODEL=ollama:qwen3:8b EVOKAI_OP
 uv run server.py
 ```
 
-Ask «Which poetry books do you have in stock?»: the panel shows the `catalogue_search` call, then the answer. Any
+Ask «Please check the live catalogue with your search tool: which books by Mara Ellison are in stock right now?»: the panel shows the `catalogue_search` call, then the answer. Any
 model of [docs/quickstart.md](../../docs/quickstart.md#models) works the same way, and the console can change the
 agent's model later.
+
 
 ## Settings
 

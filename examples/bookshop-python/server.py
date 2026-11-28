@@ -183,6 +183,16 @@ async def mcp_endpoint(
             },
         )
 
+    if not isinstance(body, dict):
+        return JSONResponse(
+            status_code=status.HTTP_200_OK,
+            content={
+                "jsonrpc": "2.0",
+                "id": None,
+                "error": {"code": -32600, "message": "Invalid Request"},
+            },
+        )
+
     msg_id = body.get("id")
     if msg_id is None:
         # JSON-RPC Notification: acknowledge with HTTP 202
